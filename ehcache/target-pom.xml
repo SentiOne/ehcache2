@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>jar</packaging>
+  <groupId>net.sf.ehcache</groupId>
+  <artifactId>ehcache</artifactId>
+  <version>2.11.1.1.7-SENTIONE</version>
+  <name>ehcache</name>
+  <description>Ehcache is an open source, standards-based cache used to boost performance,
+  offload the database and simplify scalability. Ehcache is robust, proven and full-featured and
+  this has made it the most widely-used Java-based cache.</description>
+  <url>http://ehcache.org</url>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>https://jira.terracotta.org/jira/browse/EHC</url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>src/assemble/EHCACHE-CORE-LICENSE.txt</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
